@@ -1,0 +1,152 @@
+<!doctype html>
+<html lang="en">
+
+	<head>
+		<meta charset="utf-8">
+		<title>Persentasi Data Definition language</title>
+		<meta name="description" content="beautiful presentations by FAOZI">
+		<meta name="author" content="FAOZI">
+		<meta name="apple-mobile-web-app-capable" content="yes" />
+		<meta name="apple-mobile-web-app-status-bar-style" content="black-translucent" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no, minimal-ui">
+		<link rel="stylesheet" href="css/reveal.css">
+		<link rel="stylesheet" href="css/theme/night.css" id="theme">
+        <!-- Code syntax highlighting -->
+		<link rel="stylesheet" href="lib/css/zenburn.css">
+
+		<!-- Printing and PDF exports -->
+		<script>
+			var link = document.createElement( 'link' );
+            link.rel = 'stylesheet';
+            link.type = 'text/css';
+            link.href = window.location.search.match( /print-pdf/gi ) ? 'css/print/pdf.css' : 'css/print/paper.css';
+            document.getElementsByTagName( 'head' )[0].appendChild( link );
+		</script>
+
+        <!--[if lt IE 9]>
+        <script src="lib/js/html5shiv.js"></script>
+        <![endif]-->
+	</head>
+    <body>
+		<div class="reveal">
+			<!-- Any section element inside of this container is displayed as a slide -->
+			<div class="slides">
+				<!---slide 1 -->
+                <section>
+					<h2>DATA DEFINITION LANGUAGE</h2>
+                    <h2>IN MySQL</h2>
+                    <img src="img/jakwir.png"><br>
+                    &copy 2015
+				</section>
+                <!---slide 2 -->
+               <section>
+                    <section>
+                        <h2 class="fragment">Who Im I?</h2>
+                        <H4 class="fragment"> $data[<span style="color: greenyellow">'name'</span>] => <span style="color: #268bd2">'FAOZI'</span>; </H4>
+                        <H4 class="fragment"> $data[<span style="color: greenyellow">'dept'</span>] => <span style="color: #268bd2">'MCC'</span>; </H4>
+                        <H4 class="fragment"> $data[<span style="color: greenyellow">'job'</span>] => array(<span style="color: #268bd2">
+                            'Web Programing',
+                            'Mobile Programing'</span>
+                            );
+                        </h4>
+                        <br>
+                        <br>
+                        <p class="fragment">Creator <a href="http://ediagtest.com" >Ediagtest.com</a></p><br>
+                        <p class="fragment">Author at <a href="http://jakwir.com">Jakwir.com</a></p>
+                    </section>
+                    <section>
+                        <h2> Mari Satukan Persepsi?</h2>
+                    </section>
+                </section>
+                <!-- slide 3 -->
+               <section>
+                        <section>
+                            <h1 class="fragment"> Pemahaman Dasar </h1>
+                            <h3 class="fragment">Table,</h3>
+                            <h3 class="fragment">Field, </h3>
+                            <h3 class="fragment">Record.</h3>
+                        </section>
+                        <section>
+                            <h2 class="fragment"> Perhatikan Gambar</h2>
+                            <p class="fragment">Tabel buku</p>
+                            <img src="img/g11.PNG" class="fragment">
+                        </section>
+                </section>
+                <section>
+                    <h2 class="fragment"> What Is KEY?</h2>
+                    <h3 class="fragment">Primary Key,</h3>
+                    <h3 class="fragment">Foreign Key, </h3>
+                    <h3 class="fragment">Unique Key.</h3>
+                </section>
+                <section>
+                    <h3 class="fragment"> Perhatikan Gambar!!</h3>
+                    <img src="img/g21.PNG" class="fragment">
+                    <h3 class="fragment"><span style="color: red;">What is Composite Key?</span> </h3>
+                </section>
+                <section>
+                    <h2 class="fragment"> Composite Key</h2>
+                     <p class="fragment"> Primery Key yang dibentuk dari beberapa Field Primary.</p>
+                </section>
+
+                <section>
+                    <h2 class="fragment">Data Definition Language</h2>
+                    <h1 class="fragment">Apa yang dibahas?</h1>
+                </section>
+
+                <section>
+                    <h2 class="fragment">CREATE</h2>
+                    <h2 class="fragment">ALTER</h2>
+                    <h2 class="fragment">DROP</h2>
+                </section>
+                <section>
+                    <section>
+                        <h2 class="fragment">CREATE</h2>
+                        <h6 class="fragment">Perintah yang digunakan untuk membuat, termasuk diantaranya membuat database baru, tabel baru, view baru, dan kolom.</h6>
+                    </section>
+                    <section>
+                        <h2 class="fragment">ALTER</h2>
+                        <h6 class="fragment">Perintah yang digunakan untuk mengubah struktur tabel yang telah dibuat. Pekerjaannya mencakup mengganti nama tabel, menambah kolom, mengubah kolom, menghapus kolom, maupun memberikan atribut pada kolom.</h6>
+                    </section>
+                </section>
+                <section>
+                    <h2 class="fragment">DROP</h2>
+                    <h6 class="fragment">Perintah yang digunakan untuk menghapus database dan tabel.</h6>
+                </section>
+				<section style="text-align: left;">
+					<h1 class="fragment">THANKS</h1>
+                    <h4 class="fragment">for Attentions</h4>
+                    <h2 class="fragment">Let's get Started</h2>
+					<p class="fragment">
+						- <a href="http://jakwir.com">Contact Us</a> <br>
+						- <a href="mailto:faozimipa@gmail.com"> faozimipa@gmail.com</a>
+					</p>
+				</section>
+			</div>
+		</div>
+
+		<script src="lib/js/head.min.js"></script>
+		<script src="js/reveal.js"></script>
+		<script>
+			// Full list of configuration options available at:
+            // https://github.com/hakimel/reveal.js#configuration
+            Reveal.initialize({
+                controls: true,
+                progress: true,
+                history: true,
+                center: true,
+
+                transition: 'concave', // none/fade/slide/convex/concave/zoom
+
+                // Optional reveal.js plugins
+                dependencies: [
+                    { src: 'lib/js/classList.js', condition: function() { return !document.body.classList; } },
+                    { src: 'plugin/markdown/marked.js', condition: function() { return !!document.querySelector( '[data-markdown]' ); } },
+                    { src: 'plugin/markdown/markdown.js', condition: function() { return !!document.querySelector( '[data-markdown]' ); } },
+                    { src: 'plugin/highlight/highlight.js', async: true, condition: function() { return !!document.querySelector( 'pre code' ); }, callback: function() { hljs.initHighlightingOnLoad(); } },
+                    { src: 'plugin/zoom-js/zoom.js', async: true },
+                    { src: 'plugin/notes/notes.js', async: true }
+                ]
+            });
+		</script>
+	</body>
+</html>
